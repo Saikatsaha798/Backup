@@ -1,0 +1,95 @@
+<p>
+Now in this tutorial, we will learn to search for items in a list but at the next level. To begin with, I will be referring to a previous tutorial where it was discussed <strong>how to check an item's presence in a list</strong> thoroughly. So, our primary objective is to find all the occurrences of an item in a list.
+   </p>
+
+<div id="toc-div">
+<h4><span style="font-family:arial,helvetica,sans-serif;"><strong> Table of Contents: <a id="toc-toogle" class="open"></a></strong></span></h4>
+<div id="toc-list">
+<ol>
+<li><a href="#what"><span style="font-family:arial,helvetica,sans-serif;">Searching (Explanation) </span></a></li>
+
+<li><a href="#sol"><span style="font-family:arial,helvetica,sans-serif;">Solution</span></a></li>
+<ol>
+  <li><a href="#sol1"><span style="font-family:arial,helvetica,sans-serif;">Directly traversing using Range function</span></a></li>
+    <li><a href="#sol2"><span style="font-family:arial,helvetica,sans-serif;">Using enumerate function</span></a></li>
+  
+  </ol>
+
+<li><a href="#con"><span style="font-family:arial,helvetica,sans-serif;">The Conclusion</span></a></li>
+</ol></div></div>
+
+<section>
+<a id="what" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"> <strong>Searching (Explanation)</span> <a id="what" href="#what" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Now, starting with the term <strong>"searching"</strong>, it is the process of locating a specific element present in a set of elements that is the process of searching. A table, a file, or a record could make up the element. <br><br>
+ 
+Now, there are a few steps in searching  : <br><br>
+  
+  
+  Firstly, we just <strong>check whether the element of search is present or not</strong> by returning only True or False. </br></br>
+
+  Secondly, we <strong>check the elements present in the list and take note of the indices</strong>. In this tutorial, we will be going over this step. 
+  </span>
+</p>
+<div class="div-green">
+<span class="alert-header">Tip</span>
+<span class="alert-body">The first one is the beginner's one. It is advisable to visit earlier mentioned tutorial if you are a beginner.</span>
+</div>
+
+<a id="sol" class="custom_anchor"></a> 
+<h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Solution </span><a id="sol" href="#why" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Now that you understand the task, let's dive into the solution. Basically, the algorithm is the same and easy, but will show two ways to do the same. What we will do is traverse the list and check one by one if it matches the item we are searching for. We simply put it in the list of occurrences.</span></p>
+  
+<a id="sol1" class="custom_anchor"></a> 
+<h3><span style="font-family:arial,helvetica,sans-serif;"><strong>Directly traversing using Range function</span><a id="sol" href="#why" style="color: blue">#</a></strong></h3>
+ <pre><code><span style="font-family:arial,helvetica,sans-serif;">def search_range(l, a):
+    occurences = []
+    for i in range(len(l)):
+        if a == l[i]:
+            occurences.append(i)
+    return occurences 
+</span></code></pre>
+<p><span style="font-family:arial,helvetica,sans-serif;">
+  Given the code, we can see we are taking parameters, a<strong>list named l</stronG> and an <strong> item as a</strong> and returning all occurences of the element as a <strong>list named occurences</strong>. <br><br>
+  
+Now let's discuss it in detail:<br>
+Firstly, occurences is the list created, then we run a loop to iterate over the length of the list using <strong>range</strong> and <strong>len</strong> function. Inside the loop we have put an <strong> If statement</strong> which checks if the iterating element of the element is the item we are searching for or not. And if the element and the item we are searching for are the same, it appends the index in the list called "occurences" using the  <strong>append</strong> function.
+</p>
+ <div class="div-pink">
+<span class="alert-header">Caution</span>
+<span class="alert-body">If the list you are dealing with is way too big, then using it with the above algorithm will take a long time and might even crash, so <strong>numpy</strong> is recommended for such use.</span>
+</div>
+  
+<a id="sol2" class="custom_anchor"></a> 
+<h3><span style="font-family:arial,helvetica,sans-serif;"><strong>Using enumerate function </span><a id="sol" href="#why" style="color: blue">#</a></strong></h3>
+   <pre><code><span style="font-family:arial,helvetica,sans-serif;">def search_enumerate(l, a):
+    occurences = []
+    for i in enumerate(l):
+        if a == i[-1]:
+            occurences.append(i[0])
+    return occurences
+</span></code></pre>
+  
+<p><span style="font-family:arial,helvetica,sans-serif;">
+  Here we are using the <strong> Enumerate </strong> function, to do the job with the same parameters, a <strong>list named as l</stronG> and an <strong>item as a</strong> and similarly, returning all occurences of the element as a <strong>list named occurences</strong>. <br><br>
+  
+  Now, first understand <strong>enumerate</strong> a bit,<br>
+An iterable is given a counter by the enumerate() method, which returns the object as an enumerating object. Then, using the list() method, this enumerated object can be turned into a list of tuples for use in loops. So basically, we input a list and get tuples of items with their indices. <br><br>
+  
+
+Now, though the algorithm is similar, let's discuss it in detail:<br>
+Firstly, the list is created, then we run a loop to iterate over the length of the list by getting tuples of elements and their indices using the  <strong>enumerate</strong>  function. Inside the loop we have put an <strong> If statement</strong> which checks if the element present in the last part of the tuple that is <strong>"-1" index</strong> s the item we are searching for or not. And if the element and the item we are searching for are the same, then append the index that is again present in the first part of the tuple, i.e., using the <strong>"0" index</strong> in the list called occurences using <strong>append</strong> function.
+</p>
+
+<div class="div-faq">
+<span class="faq-header">FAQ</span>
+<span class="faq-body">"Traverse" is a word used often here. A data structure operation is traversing. It is a process that allows you to access each and every element of any data structure, including arrays, linked lists, and other types of data structures. Accessing means making at least one trip to each element in order to display them to the user or carry out an operation on each element. When you know the percentage of each element, for instance, you can go through each one and carry out the necessary operations. The most fundamental operation that can be carried out on any data structure is traversal.</span>
+</div>
+  
+<a id="con" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Conclusion </strong></span></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">At the end of this tutorial, we have understood the concept of getting all occurrences of an item from a list and doing so in multiple ways: directly and using the enumerate function. The simple trick is to go through the list one by one element, and if we find the element, then note its occurrence. And enumerate is a function that takes input from a list and returns tuples of elements with their corresponding indices. I hope all this helps you in your journey of learning Python.</span></p></section>
+
+
+

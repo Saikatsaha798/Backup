@@ -1,0 +1,29 @@
+How to check if value is present in list python
+
+In this tutorial, we will learn how to check if the value is present in list. While working with list, finding an element in list is a common task. This task is also termed as Searching and broadly there are two techniques available, namely Linear and Binary Search.
+
+Searching (Explanation)
+Searching i.e., checking if value is present in list is solved by following ways :
+
+Linear Search
+This is the bruteforce and easiest way for searching but for the simplicity we get in return of more time complexity. This involves traversing the whole list and checking if any element matches to our searching term.
+Complexity : O(n)
+
+Algorithm:
+Step 1: Set found = 0 and repeat step 2, i for all elements in list.
+Step 2: Check if i == item then item is found and set found = 1 and print Item was found in list and break.
+[End of Step 1 Loop]
+Step 3: Check if found == 0 print Item was not found in list.
+
+Binary Search
+This is a bit tricky but in return we get fast and less time complexity. This basically works in SORTED ARRAY and this basically is one of the disadvantages. This takes the mid term and checks with the searching term and figures out whether it matches if yes, then Voila you got the number otherwise just takes left of the list, if the searched term is smaller and right if larger. And carries on until finds the number or no part of list is left. 
+Complexity : O(logn)
+
+Algorithm:
+Step 1: Check if list is not empty then,
+[Inside of if]
+Step 2: Check if mid term of the list is equal to the item then print Item was found in list.
+Step 3: Else if item is bigger than mid term then perform step 1,2,3,4 with right part of the list.
+Step 4: Else if item is smaller then mid term then perform step 1,2,3,4 with left part of the list.
+[End of Step 1 if]
+Step 5: Else print Item was not found in list.

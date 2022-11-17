@@ -1,0 +1,108 @@
+<p>In this tutorial, we will learn how to <strong>check if the value is present in list</strong>. While working with list, finding an element in list is a common task. This task is also termed as Searching and broadly there are two techniques available, namely <span style="color: #ff04fc;">Linear Search</span> and <span style="color: #ff04fc;">Binary Search</span>.</p>
+
+<div id="toc-div">
+<h4><span style="font-family:arial,helvetica,sans-serif;"><strong> Table of Contents:<a id="toc-toogle" class="open"></a></strong></span></h4>
+<div id="toc-list">
+<ol>
+<li><a href="#what"><span style="font-family:arial,helvetica,sans-serif;">Searching (Explanation)</span></a>
+ <ol>
+  <li><a href="#what1"><span style="font-family:arial,helvetica,sans-serif;">Linear Search</span></a> </li>
+  <li><a href="#what2"><span style="font-family:arial,helvetica,sans-serif;">Binary Search</span></a> </li>
+  </ol>
+</li>
+<li><a href="#sol"><span style="font-family:arial,helvetica,sans-serif;">Applying logic in Code</span></a>
+ <ol>
+  <li><a href="#sol1"><span style="font-family:arial,helvetica,sans-serif;">Linear Search</span></a> </li>
+  <li><a href="#sol2"><span style="font-family:arial,helvetica,sans-serif;">Binary Search</span></a> </li>
+  </ol></li>
+<li><a href="#con"><span style="font-family:arial,helvetica,sans-serif;">The Conclusion</span></a></li>
+</ol></div></div>
+
+<section>
+<a id="what" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"> <strong>Searching (Explanation)</span> <a id="what" href="#what" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Searching i.e., checking if value is present in list is solved by following ways : </span>
+</p>
+
+<a id="what1" class="custom_anchor"></a>
+<p><span style="font-family:arial,helvetica,sans-serif;">
+1.  <strong>Linear Search: <a id="what1" href="#what1" style="color: blue">#</a></strong><br> This is the bruteforce and easiest way for searching but for the simplicity we get in return of more time complexity. This involves traversing the whole list and checking if any element matches to our searching term.</span>
+</p>
+<p><span style="font-family:arial,helvetica,sans-serif;">
+<strong>Complexity:</strong> O(n)</span>
+</p>
+<p><span style="font-family:arial,helvetica,sans-serif;">
+<strong>Algorithm: </strong><br>
+<strong>Step 1: </strong>Set found = 0 and repeat step 2, i for all elements in list.<br>
+<strong>Step 2: </strong>Check if i == item then item is found and set found = 1 and print Item was found in list and break.<br>
+[End of Step 1 Loop]<br>
+<strong>Step 3: </strong>Check if found == 0 print Item was not found in list.
+</span>
+</p>
+
+<a id="what2" class="custom_anchor"></a>
+<p><span style="font-family:arial,helvetica,sans-serif;">
+2.  <strong>Binary Search: <a id="what1" href="#what1" style="color: blue">#</a></strong><br>
+This is a bit tricky but in return we get fast and less time complexity. This basically works in SORTED ARRAY and this basically is one of the disadvantages. This takes the mid term and checks with the searching term and figures out whether it matches if yes, then Voila you got the number otherwise just takes left of the list, if the searched term is smaller and right if larger. And carries on until finds the number or no part of list is left. <br><br>
+<strong>Complexity:</strong> O(n)<br><br>
+<strong>Algorithm: </strong><br>
+<strong>Step 1: </strong>Check if list is not empty then,<br>
+[Inside of if]<br>
+<strong>Step 2: </strong>Check if mid term of the list is equal to the item then print Item was found in list.<br>
+<strong>Step 3: </strong>Else if item is bigger than mid term then perform step 1,2,3,4 with right part of the list.<br>
+<strong>Step 4: </strong>Else if item is smaller then mid term then perform step 1,2,3,4 with left part of the list.<br>
+[End of Step 1 if]<br>
+<strong>Step 5: </strong>Else print Item was not found in list.
+</span>
+</p>
+
+
+
+<a id="sol" class="custom_anchor"></a> 
+<h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Applying logic in Code </span><a id="sol" href="#why" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Lots of explanation and theory, but let's see those in code. Basically, we will use python.</span></p>
+
+<a id="sol1" class="custom_anchor"></a> 
+<h3><span style="font-family:arial,helvetica,sans-serif;"><strong>Linear Search </span><a id="sol1" href="#sol1" style="color: blue">#</a></strong></h3>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;">def linear_search(l, a):
+    found = 0
+    for i in l:
+        if a == i:
+            found = 1
+            return True
+    if found == 0:
+        return False
+</span></code></pre>
+
+  
+<p><span style="font-family:arial,helvetica,sans-serif;">It is a function, which takes <strong>list as l</strong> and <strong>item as a</strong> in parameters and performs <strong>Linear Search</strong> over the list and returns <strong>True if found</strong> and <strong>False else</strong>. So, it basically runs <strong>variable i for each elements in list l</strong>, then <strong>checks if i and item a is equal</strong> and if those are equal <strong>found becomes and 1</strong> and <strong>True is returned</strong>. After, traversing through the whole list and <strong>if item is not found</strong>, then <strong>found remains at its initial value that is 0</strong> and then <strong>False is returned</strong>. Hence, we successfully executed the logic of Linear Search in a piece of Python function. </span></p>
+
+  
+<a id="sol2" class="custom_anchor"></a> 
+<h3><span style="font-family:arial,helvetica,sans-serif;"><strong>Binary Search </span><a id="sol2" href="#sol2" style="color: blue">#</a></strong></h3>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;">def binary_search(l, a):
+    res = False
+    if len(l) != 0:
+        mid = l[(len(l)//2)]
+        if mid == a:
+            return True
+        elif mid > a:
+            res = binary_search(l[:(len(l)//2)], a)
+        else:
+            res = binary_search(l[(len(l)//2)+1:], a)
+        return res
+    else:
+        return res
+</span></code></pre>
+
+  <p><span style="font-family:arial,helvetica,sans-serif;">It is a function, which takes <strong>sorted list as l</strong> and <strong>item as a</strong> in parameters and performs <strong>Binary Search</strong> over the list and returns <strong>True if found</strong> and <strong>False else</strong>. So, it basically starts with <strong>checking if list is empty</strong> then it starts with <strong>finding the middle most element</strong> as storing it in <strong>variable mid</strong> and <strong>checks if that is the element</strong> we are searching for, if so then it <strong>returns True</strong> else, continues to check if the <strong>item a is bigger</strong> or <strong>smaller than variable mid</strong>. <strong>If mid is smaller than a</strong>, then <strong>right part of the list</strong> is taken into consideration and the <strong>same process is repeated</strong> and <strong>if bigger</strong>, then done the <strong>same with left part of the list</strong>.</span></p>
+
+<a id="con" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"><strong>The Conclusion </strong></span></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Here, we have come to the end of the tutorial. Now, you know how to <strong>Check item in list</strong> in more than one ways. Searching is one of the important concepts to gain knowledge about and hope this tutorial helped you to gain so. We covered here, Linear Search and Binary Search which are common ones in searching and the same were discussed with details.</span></p></section>
+
+
+

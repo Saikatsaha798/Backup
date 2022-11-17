@@ -1,0 +1,105 @@
+<p><strong>In this tutorial, we are going to discuss about <strong>Dictionaries in Python</strong>. Dictionaries are yet another type of data type in python which consist of two parts <span style="color: #ff04fc;">'keys'</span> and its  <span style="color: #ff04fc;">'values'</span> assigned to it. In this article, we will be going into the very details of the concept and see it with examples.</strong></p>
+
+<div id="toc-div">
+<h4><span style="font-family:arial,helvetica,sans-serif;"><strong> Table of Contents: <a id="toc-toogle" class="open"></a></strong></span></h4>
+<div id="toc-list">
+<ol>
+<li><a href="#what"><span style="font-family:arial,helvetica,sans-serif;">Python removes all whitespace (Explanation).</span></a></li>
+<li><a href="#why"><span style="font-family:arial,helvetica,sans-serif;">Accessing Values in Dictionary</span></a></li>
+<li><a href="#sol"><span style="font-family:arial,helvetica,sans-serif;">Updating Dictionary</span></a>
+
+<li><a href="#sol1"><span style="font-family:arial,helvetica,sans-serif;">Delete Dictionary Elements</span></a></li>
+
+</li>
+<li><a href="#con"><span style="font-family:arial,helvetica,sans-serif;">The Conclusion</span></a></li>
+</ol></div></div>
+
+<section>
+<a id="what" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"> <strong>Dictionaries (Explanation)</span> <a id="Dictionaries" href="#what" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">To understand about dictionaries, we have tp understand about its components namely: </span>
+</p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">
+1.  <strong>Keys</strong>: So keys are the a kind of unique id assigned it a value. Such that we can access the values with respect to its key. Keys for a value can't be changed though it's value can be reassigned with new key. Note- <strong>List</strong> can't be a key.</span>
+</p>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">
+2.  <strong>Values</strong>:
+Similarly, values are what assigned to every keys and are fetched by mentioning its key. 
+</span>
+</p>
+
+
+
+
+<div class="div-pink">Let's examine a case of assigning dictionary:</div></p>
+
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;">dict = <strong>{'a':1, 'b':2, 'c':3}</strong>
+</span></code></pre>
+
+<p>
+<span style="font-family:arial,helvetica,sans-serif;">
+Here, <strong>a, b, c</strong> are the keys and <strong>1, 2, 3</strong> are the respective values assigned to them.
+</span>
+</p>
+
+
+<a id="why" class="custom_anchor"></a> 
+<h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Accessing Values in Dictionary </span><a id="reasons-that-will-cause" href="#why" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Now as we discussed earlier, we can access the values of dictionaries by using its respective key.</span></p>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;">dict = <strong>{'a':1, 'b':2, 'c':3}</strong>
+print(</strong>dict['a']</strong>)
+</span></code></pre>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Here what we did is, declared a dictionary with keys and values and used a key to fetch its value. Here, key <strong>a</strong> whose value is <strong>1</strong> which will be the output after passing the key.</span></p></section><section>
+
+<a id="sol" class="custom_anchor"></a><h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Updating Dictionary </span><a id="the-solution" href="#sol" style="color: blue">#</a></strong></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Dictionaries are one of the mutable datatypes. Hence, updating is a thing. Updating can be done in many ways like adding new set of keys and there respective values or by changing the value of existing ones. </span></p></section><section>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;">dict = <strong>{'a':1, 'b':2, 'c':3}</strong>
+</strong>dict['d'] = 4</strong>
+</span></code></pre>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Here, we are adding new set key and value which is <strong>4</strong> assigned to key <strong>'d'.</strong></span></p>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;"></strong>dict['a'] = 0</strong>
+</span></code></pre>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Similarly, we can modify the existing set of values. Here, we assigned a new value i.e, <strong>0</strong> to key <strong>'a'.</strong></span></p>
+
+
+<a id="sol1" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"><strong>Delete Dictionary Elements </strong></span><a id="the-solution" href="#sol" style="color: blue">#</a></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Now, referring dictionary as mutable datatype means we can  delete elements too. It is simple yet necessary feature. There are mainly three options available, deleting a specific element, deleting all entries or deleting the whole dictionary. </span></p>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;"></strong>del dict['a']</strong>
+</span></code></pre>
+
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Here, this code just deletes the element whose key is mentioned. This is used when we need to delete some elements from the dictionary. </span></p>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;"></strong>dict.clear()</strong>
+</span></code></pre>
+
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Here, this helps us to clear the whole dictionary i.e., it deletes all elements from the dictionary making it empty.</span></p>
+
+<pre><code><span style="font-family:arial,helvetica,sans-serif;"></strong>del dict</strong>
+</span></code></pre>
+
+
+<p><span style="font-family:arial,helvetica,sans-serif;">This straight deletes the whole dictionary as if it was never declared. Note: It deletes the </strong>variable</strong> of dictionary too.</span></p>
+
+
+
+<a id="con" class="custom_anchor"></a> <h2><span style="font-family:arial,helvetica,sans-serif;"><strong>The Conclusion</strong></span></h2>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">Thank you for staying with this tutorial till the very end. In this tutorial, our topic was <strong>Dictionaries in python</strong>. Dictionaries in python is quite important concept to gain knowledge on. We read, Dictionary is a mutable datatype, how to define, modify and delete it. Hope the concepts discussed in this tutorial benefit you. </span></p></section>
+
+
+

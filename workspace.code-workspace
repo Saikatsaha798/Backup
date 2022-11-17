@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "Automation"
+		},
+		{
+			"path": "Big data"
+		},
+		{
+			"path": "C"
+		},
+		{
+			"path": "C++"
+		},
+		{
+			"path": "HTML"
+		},
+		{
+			"path": "Machine Learning"
+		},
+		{
+			"path": "Python"
+		},
+		{
+			"path": "Kodlogs"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ratio": "c",
+			"stdio.h": "c"
+		}
+	}
+}
