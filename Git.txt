@@ -1,0 +1,7 @@
+*Git Tutorial*
+
+git status 								// Current status of the Repository.
+git add .  								// Adds all file to the staging area.
+git commit -m "Version NO" 		// Saves repository corresponding to Version name or 													message.
+git config --global user.name 	// Changes the username of author in all scopes.
+git config --global user.email 	// Changes the email of author in all scopes.
