@@ -1,4 +1,4 @@
-*Git Tutorial*
+**Git Tutorial**
 
 git status 								// Current status of the Repository.
 git add .  								// Adds all file to the staging area.
