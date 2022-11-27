@@ -6,7 +6,7 @@ git commit -m "Version NO" 		// Saves repository corresponding to Version name o
 git config --global user.name 	// Changes the username of author in all scopes.
 git config --global user.email 	// Changes the email of author in all scopes.
 
-*connecting to Github*
+**connecting to Github**
 
 1. Create a SSH key
 2. Add it to Github
