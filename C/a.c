@@ -2,10 +2,13 @@
 #include <string.h>
 // #include <stdlib.h>
 
-int main(){
-    char str[100];
-    int a=1, b=2;
+int sts(char str[]){
+    strcpy(str, "aaa");
+}
 
-    sprintf(str, "%d+%d\0", a, b);
+int main(){
+    char str[30] = "tts";
+    sts(str);
     printf("%s", str);
+    
 }
