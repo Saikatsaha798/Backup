@@ -2,13 +2,12 @@
 #include <string.h>
 // #include <stdlib.h>
 
-int sts(char str[]){
-    strcpy(str, "aaa");
-}
-
-int main(){
-    char str[30] = "tts";
-    sts(str);
-    printf("%s", str);
-    
+int main()
+{
+    char str[30];
+    FILE *ptr;
+    gets(str);
+    ptr = fopen("a.txt", "w");
+    fprintf(ptr, "%s", str);
+    fclose(ptr);
 }
