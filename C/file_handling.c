@@ -16,7 +16,6 @@ int create_file(char txt[])
 
 int add_data_file(char txt[])
 {
-    int c;
     char ch, str[100];
     strcpy(str, txt);
 
@@ -40,52 +39,62 @@ int add_data_file(char txt[])
         printf("File added to path !\n");
     }
 
-    printf("Which datatype to add?\n"
-    "1. Integer\n"
-    "2. Float\n"
-    "3. String\n"
-    "Enter Choice : ");
-
-    scanf("%d", &c);
-
     FILE *ptr;
     ptr = fopen(str, "a");
 
-    switch (c)
+    char dataStr[10000];
+
+    fflush(stdin);
+    printf("Enter data to enter:\n->\t");
+    gets(dataStr);
+
+    fprintf(ptr, "%s\n", dataStr);
+
+    fclose(ptr);
+    return 0;
+}
+
+int read_data_file(char txt[])
+{
+    char ch, str[100];
+    strcpy(str, txt);
+
+    if (str[0] != '\0')
     {
-    case 1:
-        int dataInt;
+        printf("Do you want to use current file (%s) ? (y/n) : ", str);
+        scanf(" %c", &ch);
 
-        printf("Enter integer : ");
-        scanf("%d", &dataInt);
-
-        fprintf(ptr, "%d", dataInt);
-        break;
-
-    case 2:
-        float dataFlt;
-
-        printf("Enter decimal number : ");
-        scanf("%f", &dataFlt);
-
-        fprintf(ptr, "%f", dataFlt);
-        break;
-
-    case 3:
-        char dataStr[1000];
-
-        fflush(stdin);
-        printf("Enter text : ");
-        gets(dataStr);
-
-        fprintf(ptr, "%s", dataStr);
-        break;
-
-    default:
-        printf("Wrong Choice !\n");
-        break;
+        if (ch != 'y')
+        {
+            strcpy(str, "");
+            printf("File path reset !\n");
+        }
     }
 
+    if (str[0] == '\0')
+    {
+        printf("Enter existing file to use : ");
+        scanf(" %s", &str);
+        strcpy(txt, str);
+        printf("File added to path !\n");
+    }
+
+    FILE *ptr;
+    ptr = fopen(str, "r");
+
+    char dataStr[10000], charac;
+    rewind(ptr);
+
+    printf("Data fetched :\n->");
+
+    while (getc(ptr) != EOF)
+    {
+
+        fseek(ptr, -1, SEEK_CUR);
+        fgets(dataStr, 10000, ptr);
+        printf("\t%s", dataStr);
+    }
+    printf("\n");
     fclose(ptr);
     return 0;
 }
@@ -98,10 +107,44 @@ int main()
     // fprintf(ptr, "%d", a);
     // fclose(ptr);
 
-    char txt[100] = "";
+    char txt[100] = "", run = 'y';
+    int c;
 
-    create_file(txt);
-    add_data_file(txt);
+    while (run == 'y')
+    {
+        printf("\nMENU :\n"
+               "1. Create file\n"
+               "2. Add data to file\n"
+               "3. Read data from file\n"
+               "4. Exit\n"
+               "Enter choice : ");
 
+        fflush(stdin);
+        scanf("%d", &c);
+
+        switch (c)
+        {
+        case 1:
+            create_file(txt);
+            break;
+
+        case 2:
+            add_data_file(txt);
+            break;
+
+        case 3:
+            read_data_file(txt);
+            break;
+
+        case 4:
+            run = 'n';
+            printf("Thanks for using !\n");
+            break;
+
+        default:
+            printf("Wrong Choice !\n");
+            break;
+        }
+    }
     return 0;
 }
