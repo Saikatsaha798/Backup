@@ -1,17 +1,20 @@
 #include <stdio.h>
-#include <string.h>
-// #include <stdlib.h>
 
+int main(){
+    int arr[5] = {1,3,5,7,9};
 
-int main()
-{
-    char str[30] = "";
-    int a=4;
-    FILE *ptr;
-    ptr = fopen("a.txt", "r");
-    rewind(ptr);
-    while (a--){
-        fgets(str, 10000, ptr);
-        printf("%s", str);
+    int i, j;
+
+    for (i=0; i<5; i++){
+
+        for (j=i; j<5; j++){
+            printf("%d ", arr[j]);
+        }
+
+        for (j=0; j<i+; j++){
+            printf("%d ", arr[j]);
+        }
+        printf("\n");
+
     }
 }

@@ -13,6 +13,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+    
     for (i=1; i<n; i++)
     {
         t = arr[i];
