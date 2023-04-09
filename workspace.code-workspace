@@ -28,7 +28,17 @@
 	"settings": {
 		"files.associations": {
 			"ratio": "c",
-			"stdio.h": "c"
+			"stdio.h": "c",
+			"typeindex": "c",
+			"typeinfo": "c",
+			"optional": "c",
+			"system_error": "c",
+			"array": "c",
+			"functional": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"utility": "c",
+			"variant": "c"
 		}
 	}
 }

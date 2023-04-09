@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: ./../compile/4-bit_adder.vhd" 
+MESSAGE "Compile Entity "\4-bit_adder\"" 
+MESSAGE "Compile Architecture "\4-bit_adder\" of Entity "\4-bit_adder\"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

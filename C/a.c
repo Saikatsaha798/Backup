@@ -1,20 +1,24 @@
 #include <stdio.h>
 
 int main(){
-    int arr[5] = {1,3,5,7,9};
-
-    int i, j;
-
-    for (i=0; i<5; i++){
-
-        for (j=i; j<5; j++){
-            printf("%d ", arr[j]);
-        }
-
-        for (j=0; j<i+; j++){
-            printf("%d ", arr[j]);
-        }
-        printf("\n");
+    char s[] = "PAYPALISHIRING";
+    int n = 2,i,j;
+    switch(n){
+        case 1:
+            printf("%s", s);
+            break;
+        case 2:
+            for (i=0; i<2; i++){
+                for (j=i; j<14; j+=2){
+                    printf("%c", s[j]);
+                }
+                printf("\n");
+            }
+            break;
+        default:
+            for (i=0; i<n; i++){
+                
+            }
 
     }
 }

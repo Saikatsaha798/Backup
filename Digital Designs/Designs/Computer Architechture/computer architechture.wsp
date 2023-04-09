@@ -1,0 +1,183 @@
+[COMPILESTATUS|.\src\and.cpp]
+FileTimeLow=3329133608
+FileTimeHigh=31016479
+Status=Modified
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\src\and.cpp|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////80AAACZAAAAfwcAAFoDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[COMPILESTATUS|.\src\and.bde]
+FileTimeLow=4168830313
+FileTimeHigh=31016479
+Status=Compiled
+[COMPILESTATUS|.\compile\and.vhd]
+FileTimeLow=3149452626
+FileTimeHigh=31017470
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\and.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,15625,8192,2416,633,
+PROBEBAL=0
+[General]
+CurrentVersion=103
+[CACHEDOC|Aldec.Project.Generic.7|.\Computer Architechture\Computer Architechture.adf|]
+Path=/\4-bit_adder\
+[COMPILESTATUS|.\src\sr_latch.bde]
+FileTimeLow=4248060201
+FileTimeHigh=31017638
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\sr_latch.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,12500,6540,122,-153,
+PROBEBAL=1
+[COMPILESTATUS|.\compile\sr_latch.vhd]
+FileTimeLow=2618189208
+FileTimeHigh=31017639
+Status=Compiled
+[COMPILESTATUS|.\src\full_adder.bde]
+FileTimeLow=4183629394
+FileTimeHigh=31017478
+Status=Compiled
+[COMPILESTATUS|.\compile\full_adder.vhd]
+FileTimeLow=4192083704
+FileTimeHigh=31017478
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\full_adder.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,2048,6250,-273,-71,
+PROBEBAL=1
+[COMPILESTATUS|.\src\half_adder.bde]
+FileTimeLow=3962161389
+FileTimeHigh=31017477
+Status=Compiled
+[COMPILESTATUS|.\compile\half_adder.vhd]
+FileTimeLow=4187872437
+FileTimeHigh=31017478
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\half_adder.bde|]
+PROBEBAL=1
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,8000,16000,-256,140,
+[CACHEDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\compile/sr_latch.vhd|]
+CurrentLine=29
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////80AAACZAAAAfwcAAE8DAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[COMPILESTATUS|.\src\or.bde]
+FileTimeLow=1681030744
+FileTimeHigh=31020464
+Status=Compiled
+[COMPILESTATUS|.\compile\or.vhd]
+FileTimeLow=1906774743
+FileTimeHigh=31020464
+Status=Compiled
+[COMPILESTATUS|.\src\xor.bde]
+FileTimeLow=3320772912
+FileTimeHigh=31020464
+Status=Compiled
+[COMPILESTATUS|.\compile\xor.vhd]
+FileTimeLow=3325060294
+FileTimeHigh=31020464
+Status=Compiled
+[COMPILESTATUS|.\src\xnor.bde]
+FileTimeLow=3860755915
+FileTimeHigh=31020464
+Status=Compiled
+[COMPILESTATUS|.\compile\xnor.vhd]
+FileTimeLow=3864791365
+FileTimeHigh=31020464
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\or.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,12496,8190,722,612,
+PROBEBAL=0
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\xor.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,2500,1043,790,1443,
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\xnor.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,3125,2048,694,438,
+[COMPILESTATUS|.\src\full_using_half.bde]
+FileTimeLow=613058029
+FileTimeHigh=31023478
+Status=Compiled
+[COMPILESTATUS|.\compile\full_using_half.vhd]
+FileTimeLow=712853351
+FileTimeHigh=31023478
+Status=Compiled
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\full_using_half.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,2624,2800,555,247,
+[COMPILESTATUS|.\src\and_code.vhd]
+FileTimeLow=3121455038
+FileTimeHigh=31024640
+Status=Compiled
+[COMPILESTATUS|.\src\or_code.vhd]
+FileTimeLow=2590078468
+FileTimeHigh=31024641
+Status=Compiled
+[COMPILESTATUS|.\src\xor_code.vhd]
+FileTimeLow=2152998296
+FileTimeHigh=31024642
+Status=Compiled
+[COMPILESTATUS|.\src\xnor_code.vhd]
+FileTimeLow=3498099213
+FileTimeHigh=31024650
+Status=Compiled
+[COMPILESTATUS|.\src\4-bit_adder.bde]
+FileTimeLow=2315789542
+FileTimeHigh=31024672
+Status=Compiled
+[COMPILESTATUS|.\compile\4-bit_adder.vhd]
+FileTimeLow=2326781788
+FileTimeHigh=31024672
+Status=Compiled
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+Computer_Architechture=0
+[CACHEDOC|Aldec.BDE.7|.\Computer Architechture\src\4-bit_adder.bde|]
+SymbolsToolbox=1
+ZOOMOFSETS_PAGES=1,1,820,703,754,87,
+PROBEBAL=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\src/and_code.vhd|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACZAAAAfwcAAPQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\src/or_code.vhd|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACZAAAAfwcAAPQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\src/xor_code.vhd|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACZAAAAfwcAAPQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\Computer Architechture\src/xnor_code.vhd|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+ZoomFactor=0
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////80AAACZAAAAfwcAAPQDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAAQAAAA=="
+[OPENDOC|Aldec.BDE.7|.\Computer Architechture\src\4-bit_adder.bde|]
+SymbolsToolbox=0
+ZOOMOFSETS_PAGES=1,1,820,703,754,87,

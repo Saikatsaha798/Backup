@@ -1,0 +1,27 @@
+149
+~E 1 "../compile/4-bit_adder.vhd" 27 \4-bit_adder\
+~A 1 "../compile/4-bit_adder.vhd" 45 \4-bit_adder\
+~E 1 "../compile/and.vhd" 27 \and\
+~A 1 "../compile/and.vhd" 35 \and\
+~E 1 "../compile/or.vhd" 27 \or\
+~A 1 "../compile/or.vhd" 35 \or\
+~E 1 "../compile/xnor.vhd" 27 \xnor\
+~A 1 "../compile/xnor.vhd" 35 \xnor\
+~E 1 "../compile/xor.vhd" 27 \xor\
+~A 1 "../compile/xor.vhd" 35 \xor\
+~E 1 "../src/and_code.vhd" 4 and_code
+~A 1 "../src/and_code.vhd" 21 behav
+~E 1 "../compile/full_adder.vhd" 27 full_adder
+~A 1 "../compile/full_adder.vhd" 37 full_adder
+~E 1 "../compile/full_using_half.vhd" 27 full_using_half
+~A 1 "../compile/full_using_half.vhd" 37 full_using_half
+~E 1 "../compile/half_adder.vhd" 27 half_adder
+~A 1 "../compile/half_adder.vhd" 36 half_adder
+~E 1 "../src/or_code.vhd" 4 or_code
+~A 1 "../src/or_code.vhd" 21 behav
+~E 1 "../compile/sr_latch.vhd" 27 sr_latch
+~A 1 "../compile/sr_latch.vhd" 36 sr_latch
+~E 1 "../src/xnor_code.vhd" 4 xnor_code
+~A 1 "../src/xnor_code.vhd" 21 behav
+~E 1 "../src/xor_code.vhd" 4 xor_code
+~A 1 "../src/xor_code.vhd" 21 behav

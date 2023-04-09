@@ -1,0 +1,12 @@
+i<>.\src\and.bde
+i<>.\src\half_adder.bde
+i<>.\src\full_adder.bde
+i<>.\src\sr_latch.bde
+i<>.\src\or.bde
+i<>.\src\xor.bde
+i<>.\src\xnor.bde
+i<>.\src\full_using_half.bde
+i<>.\src\or_code.vhd
+i<>.\src\xor_code.vhd
+i<>.\src\xnor_code.vhd
+i<>.\src\4-bit_adder.bde

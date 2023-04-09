@@ -1,73 +1,71 @@
 #include <stdio.h>
 
 int quick(int arr[], int l, int r){
-    int m_l = l, m_r = r-1, i,j, temp, p;
-    p = r;
-
     if (l<r){
-            while(m_l<=m_r){
+        int i=l, j=r-1, p=r, temp, k;
 
-                if (arr[m_l] == arr[m_r]){
-                    break;
-                }
+        while (i<=j){
 
-                while(arr[m_l]<arr[p]){
-                    m_l++;
-                }
-                while(arr[m_r]>arr[p]){
-                    m_r--;
-                }
-
-                printf("%d %d\n", m_l-l, m_r-l);
-
-                if (m_l<m_r){
-                    temp = arr[m_l];
-                    arr[m_l] = arr[m_r];
-                    arr[m_r] = temp;
-                }
-
-                printf("The Elements : ");
-                for (i=l; i<=r; i++){
-                    printf("%d ", arr[i]);
-                }
-                printf("\n");
+            if (arr[i] == arr[j]){
+                break;
             }
-            
-            
-            temp = arr[p];
-            arr[p] = arr[m_l];
-            arr[m_l] = temp;
+            while (arr[i]<arr[p]){
+                i++;
+            }
+            while (arr[j]>arr[p]){
+                j--;
+            }
 
-            printf("%d %d\n", m_l-l, m_r-l);
-            printf("The Elements : ");
-                for (i=l; i<=r; i++){
-                    printf("%d ", arr[i]);
-                }
-                printf("\n");
+            if (i<j) {
+                temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }   
             
-                
-            quick(arr, l, m_l-1);
-            quick(arr, m_l+1, r);
-        }
+        temp = arr[i];
+        arr[i] = arr[p];
+        arr[p] = temp; 
+
+        quick(arr, l, i-1);
+        quick(arr, i+1, r);
+        
+
+    return 0;
+    }
 }
 
 int main(){
-    int n, i;
-    // int arr[5] = {48, 15, 31, 78, 10};
+    int n,i;
+
     printf("Enter the Number of Elements : ");
     scanf("%d", &n);
+
     int arr[n];
-    printf("Enter the list : ");
+
+    printf("Enter the Elements : ");
     for (i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    printf("The Elements : ");
+
+    printf("Array before sorting : ");
     for (i=0; i<n; i++){
-        printf("%d ", arr[i]);
+        if (i == n-1){
+            printf("%d", arr[i]);
+            break;
+        }
+        printf("%d, ", arr[i]);
     }
+
     quick(arr, 0, n-1);
-    printf("The Elements : ");
+
+    printf("\nArray after sorting : ");
     for (i=0; i<n; i++){
-        printf("%d ", arr[i]);
+        if (i == n-1){
+            printf("%d", arr[i]);
+            break;
+        }
+        printf("%d, ", arr[i]);
     }
+    return 0;
 }

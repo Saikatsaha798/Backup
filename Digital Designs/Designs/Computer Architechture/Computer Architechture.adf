@@ -1,0 +1,69 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Computer_Architechture
+[Library]
+Computer_Architechture=.\Computer_Architechture\Computer_Architechture.lib
+[$LibMap$]
+Computer_Architechture=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+FUNC_LIB=Computer_Architechture
+[Files.Data]
+.\src\and.bde=Block Diagram
+.\src\half_adder.bde=Block Diagram
+.\src\full_adder.bde=Block Diagram
+.\src\sr_latch.bde=Block Diagram
+.\src\or.bde=Block Diagram
+.\src\xor.bde=Block Diagram
+.\src\xnor.bde=Block Diagram
+.\src\full_using_half.bde=Block Diagram
+.\src\and_code.vhd=VHDL Source Code
+.\src\or_code.vhd=VHDL Source Code
+.\src\xor_code.vhd=VHDL Source Code
+.\src\xnor_code.vhd=VHDL Source Code
+.\src\4-bit_adder.bde=Block Diagram
+[Files]
+/and.bde=-1
+/half_adder.bde=-1
+/full_adder.bde=-1
+/sr_latch.bde=-1
+/or.bde=-1
+/xor.bde=-1
+/xnor.bde=-1
+/full_using_half.bde=-1
+/and_code.vhd=-1
+/or_code.vhd=-1
+/xor_code.vhd=-1
+/xnor_code.vhd=-1
+/4-bit_adder.bde=-1
+[file_out:/and.bde]
+/..\compile\and.vhd=-1
+[HierarchyViewer]
+HierarchyInformation=\4-bit_adder\|\4-bit_adder\|0 and_code|behav|0
+ShowHide=ShowTopLevel
+Selected=
+[file_out:/half_adder.bde]
+/..\compile\half_adder.vhd=-1
+[file_out:/full_adder.bde]
+/..\compile\full_adder.vhd=-1
+[file_out:/sr_latch.bde]
+/..\compile\sr_latch.vhd=-1
+[file_out:/or.bde]
+/..\compile\or.vhd=-1
+[file_out:/xor.bde]
+/..\compile\xor.vhd=-1
+[file_out:/xnor.bde]
+/..\compile\xnor.vhd=-1
+[file_out:/full_using_half.bde]
+/..\compile\full_using_half.vhd=-1
+[file_out:/4-bit_adder.bde]
+/..\compile\4-bit_adder.vhd=-1
