@@ -11,3 +11,8 @@
 .\src\xor_code.vhd
 .\src\xnor_code.vhd
 .\src\4-bit_adder.bde
+.\src\full_using_half_code.vhd
+.\src\half_adder_code.vhd
+.\src\nand_code.vhd
+.\src\nor_code.vhd
+.\src\not_code.vhd

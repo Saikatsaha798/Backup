@@ -10,3 +10,8 @@ i<>.\src\or_code.vhd
 i<>.\src\xor_code.vhd
 i<>.\src\xnor_code.vhd
 i<>.\src\4-bit_adder.bde
+i<>.\src\full_using_half_code.vhd
+i<>.\src\half_adder_code.vhd
+i<>.\src\nand_code.vhd
+i<>.\src\nor_code.vhd
+i<>.\src\not_code.vhd

@@ -1,4 +1,4 @@
-149
+165
 ~E 1 "../compile/4-bit_adder.vhd" 27 \4-bit_adder\
 ~A 1 "../compile/4-bit_adder.vhd" 45 \4-bit_adder\
 ~E 1 "../compile/and.vhd" 27 \and\
@@ -15,8 +15,18 @@
 ~A 1 "../compile/full_adder.vhd" 37 full_adder
 ~E 1 "../compile/full_using_half.vhd" 27 full_using_half
 ~A 1 "../compile/full_using_half.vhd" 37 full_using_half
+~E 1 "../src/full_using_half_code.vhd" 4 full_using_half_code
+~A 1 "../src/full_using_half_code.vhd" 12 behav
 ~E 1 "../compile/half_adder.vhd" 27 half_adder
 ~A 1 "../compile/half_adder.vhd" 36 half_adder
+~E 1 "../src/half_adder_code.vhd" 4 half_adder_code
+~A 1 "../src/half_adder_code.vhd" 20 behav
+~E 1 "../src/nand_code.vhd" 4 nand_code
+~A 1 "../src/nand_code.vhd" 21 behav
+~E 1 "../src/nor_code.vhd" 4 nor_code
+~A 1 "../src/nor_code.vhd" 21 behav
+~E 1 "../src/not_code.vhd" 4 not_code
+~A 1 "../src/not_code.vhd" 20 behav
 ~E 1 "../src/or_code.vhd" 4 or_code
 ~A 1 "../src/or_code.vhd" 21 behav
 ~E 1 "../compile/sr_latch.vhd" 27 sr_latch

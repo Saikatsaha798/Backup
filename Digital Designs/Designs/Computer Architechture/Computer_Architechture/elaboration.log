@@ -1,38 +1,33 @@
-Active-HDL 13.0.376.8320 2023-04-03 17:07:01
+Active-HDL 13.0.376.8320 2023-04-09 16:56:27
 
 Elaboration top modules:
-Architecture                  \4-bit_adder\(\4-bit_adder\)
+Architecture                  behav(not_code)
 
 
-----------------------------------------------------------------------------------------------------------------
-Entity        | Architecture  | Library                | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------------------
-\4-bit_adder\ | \4-bit_adder\ | computer_architechture |      | 13.0.376.8320 (Windows64) | -O3
-full_adder    | full_adder    | computer_architechture |      | 13.0.376.8320 (Windows64) | -O3
-half_adder    | half_adder    | computer_architechture |      | 13.0.376.8320 (Windows64) | -O3
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+Entity   | Architecture | Library                | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------
+not_code | behav        | computer_architechture |      | 13.0.376.8320 (Windows64) | -O3
+----------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------
-VHDL Package                  | Library                | Info | Compiler Version          | Compilation Options
-----------------------------------------------------------------------------------------------------------------
-standard                      | std                    |      |                           | <unavailable>
-TEXTIO                        | std                    |      | 13.0.376.8320 (Windows64) |  -2019
-std_logic_1164                | ieee                   |      | 13.0.376.8320 (Windows64) |  -2008
-std_logic_arith               | ieee                   |      | 13.0.376.8320 (Windows64) | <unavailable>
-STD_LOGIC_SIGNED              | ieee                   |      | 13.0.376.8320 (Windows64) | <unavailable>
-STD_LOGIC_UNSIGNED            | ieee                   |      | 13.0.376.8320 (Windows64) | <unavailable>
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+VHDL Package            | Library                | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------
+standard                | std                    |      |                           | <unavailable>
+TEXTIO                  | std                    |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164          | ieee                   |      | 13.0.376.8320 (Windows64) |  -2008
+----------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------
-Library                       | Comment
-----------------------------------------------------------------------------------------------------------------
-computer_architechture        | None
-ieee                          | Standard IEEE packages library
-std                           | Standard VHDL library
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------------------------------
+computer_architechture  | None
+ieee                    | Standard IEEE packages library
+std                     | Standard VHDL library
+----------------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+\4-bit_adder\ \4-bit_adder\ \4-bit_adder\
+Simulation Options: asim -O5 +access +r +m+not_code not_code behav
 
 
 The performance of simulation is reduced. Version Student Edition
