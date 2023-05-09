@@ -1,501 +1,11 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_adder_code.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Error: COMP96_0019: half_adder_code.vhd : (5, 2): Keyword 'is' expected.
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Error: COMP96_0056: half_adder_code.vhd : (12, 1): Cannot find referenced entity declaration "half_adder_code".
-# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
-asim -O5 +access +r +m+half_adder_code half_adder_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet29" has been made inactive.
-#  3:55 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# VSIM: 4 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Error: COMP96_0019: half_adder_code.vhd : (23, 2): Keyword 'begin' expected.
-# Error: COMP96_0019: half_adder_code.vhd : (25, 2): Keyword 'end' expected.
-# Error: COMP96_0016: half_adder_code.vhd : (26, 3): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Error: COMP96_0019: half_adder_code.vhd : (22, 16): Keyword 'begin' expected.
-# Error: COMP96_0329: half_adder_code.vhd : (23, 2): Generate statement must have a label.
-# Error: COMP96_0019: half_adder_code.vhd : (23, 11): Keyword 'generate' expected.
-# Error: COMP96_0019: half_adder_code.vhd : (25, 2): Keyword 'end' expected.
-# Error: COMP96_0016: half_adder_code.vhd : (26, 3): Design unit declaration expected.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Error: COMP96_0019: half_adder_code.vhd : (23, 2): Keyword 'begin' expected.
-# Error: COMP96_0019: half_adder_code.vhd : (25, 2): Keyword 'end' expected.
-# Error: COMP96_0016: half_adder_code.vhd : (26, 3): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+half_adder_code half_adder_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/half_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
-# Compile Entity "half_adder_code"
-# Compile Architecture "behav" of Entity "half_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet30" has been made inactive.
-#  4:00 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-# Preparing list of files to export. Please wait...
-# Finished preparing list of files to export.
-# Exporting single document to pdf...
-# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 5\]
-# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\half_adder_code.vhd (1 of 1)
-# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\half_adder_code.vhd] ...
-# HDE document [half_adder_code.vhd] exported successfully
-# Export to PDF time: [0 s]
-# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 5\half_adder_code.pdf
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: COMP96_0019: full_using_half_code.vhd : (18, 5): Keyword 'component' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Sum".
-# Error: ELAB1_0022: full_using_half_code.vhd : (23, 0): Incompatible modes for port "Cout".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Error: COMP96_0413: full_using_half_code.vhd : (24, 56): Actual of mode "in" cannot be assigned to formal "Sum" of mode "out".
-# Error: COMP96_0143: full_using_half_code.vhd : (25, 2): Object "Cout" cannot be written.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_using_half_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
-# Compile Entity "full_using_half_code"
-# Compile Architecture "behav" of Entity "full_using_half_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+full_using_half_code full_using_half_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5397 kB (elbread=427 elab2=4831 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet31" has been made inactive.
-#  4:21 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-# Warning: WAVEFORM: Object matching /half_adder_code/A not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /half_adder_code/B not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /half_adder_code/Sum not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /half_adder_code/Cout not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# VSIM: 1 object(s) traced.
-# KERNEL: Warning: KERNEL_0291 Object "/full_using_half_code/A" has already been traced.
-# VSIM: 7 object(s) traced.
-run @200ns
-# KERNEL: stopped at time: 200 ns
-# Preparing list of files to export. Please wait...
-# Finished preparing list of files to export.
-# Exporting single document to pdf...
-# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 5\]
-# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\full_using_half_code.vhd (1 of 1)
-# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\full_using_half_code.vhd] ...
-# HDE document [full_using_half_code.vhd] exported successfully
-# Export to PDF time: [0 s]
-# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 5\full_using_half_code.pdf
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nand_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
-# Compile Entity "nand_code"
-# Compile Architecture "behav" of Entity "and_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nand_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
-# Compile Entity "nand_code"
-# Compile Architecture "behav" of Entity "nand_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/and_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/and_code.vhd
-# Compile Entity "and_code"
-# Compile Architecture "behav" of Entity "and_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/and_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/and_code.vhd
-# Compile Entity "and_code"
-# Compile Architecture "behav" of Entity "and_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
-asim -O5 +access +r +m+nand_code nand_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet32" has been made inactive.
-#  4:47 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# VSIM: 3 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nand_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
-# Compile Entity "nand_code"
-# Compile Architecture "behav" of Entity "nand_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nand_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
-# Compile Entity "nand_code"
-# Compile Architecture "behav" of Entity "nand_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nand_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
-# Compile Entity "nand_code"
-# Compile Architecture "behav" of Entity "nand_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+nand_code nand_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet33" has been made inactive.
-#  4:48 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-run @200ns
-# KERNEL: stopped at time: 200 ns
-# Preparing list of files to export. Please wait...
-# Finished preparing list of files to export.
-# Exporting single document to pdf...
-# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\]
-# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\nand_code.vhd (1 of 1)
-# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\nand_code.vhd] ...
-# HDE document [nand_code.vhd] exported successfully
-# Export to PDF time: [0 s]
-# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\nand_code.pdf
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nor_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nor_code.vhd
-# Compile Entity "nor_code"
-# Compile Architecture "behav" of Entity "nor_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+nor_code nor_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet34" has been made inactive.
-#  4:50 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# VSIM: 3 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @200ns
-# KERNEL: stopped at time: 200 ns
-run @100ns
-# VSIM: Error: 100ns is less than current simulation time.
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+nor_code nor_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet35" has been made inactive.
-#  4:52 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/nor_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nor_code.vhd
-# Compile Entity "nor_code"
-# Compile Architecture "behav" of Entity "nor_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+nor_code nor_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet36" has been made inactive.
-#  4:52 PM, Sunday, April 9, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-# Preparing list of files to export. Please wait...
-# Finished preparing list of files to export.
-# Exporting single document to pdf...
-# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\]
-# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\nor_code.vhd (1 of 1)
-# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\nor_code.vhd] ...
-# HDE document [nor_code.vhd] exported successfully
-# Export to PDF time: [0 s]
-# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\nor_code.pdf
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/not_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/not_code.vhd
-# Compile Entity "not_code"
-# Compile Architecture "behav" of Entity "not_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_adder_code.vhd
+# Compile Entity "full_adder_code"
+# Compile Architecture "behav" of Entity "full_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 asim -O5 +access +r +m+not_code not_code behav
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -518,37 +28,13 @@ asim -O5 +access +r +m+not_code not_code behav
 # KERNEL: Kernel process initialization done.
 # Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
 # KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet37" has been made inactive.
-#  4:55 PM, Sunday, April 9, 2023
+# Stimuli: Warning: The stimuli set "StimuliSet39" has been made inactive.
+#  1:14 PM, Sunday, April 30, 2023
 #  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-# Warning: WAVEFORM: Object matching /nor_code/A not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /nor_code/B not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /nor_code/Y not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# VSIM: 2 object(s) traced.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/not_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/not_code.vhd
-# Compile Entity "not_code"
-# Compile Architecture "behav" of Entity "not_code"
-# Error: COMP96_0078: not_code.vhd : (22, 12): Unknown identifier "B".
-# Error: COMP96_0348: not_code.vhd : (22, 12): Name on sensitivity list must denote a signal.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/not_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/not_code.vhd
-# Compile Entity "not_code"
-# Compile Architecture "behav" of Entity "not_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-endsim
-# VSIM: Simulation has finished.
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+not_code not_code behav
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+full_adder_code full_adder_code behav
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # VSIM: Stack memory: 32MB
@@ -568,23 +54,75 @@ asim -O5 +access +r +m+not_code not_code behav
 # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
+# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
 # KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet38" has been made inactive.
-#  4:56 PM, Sunday, April 9, 2023
+#  1:15 PM, Sunday, April 30, 2023
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_adder_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_adder_code.vhd
+# Compile Entity "full_adder_code"
+# Compile Architecture "behav" of Entity "full_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
+# Error: COMP96_0018: Four_bit_adder_code.vhd : (1, 5): Identifier expected.
+# Error: COMP96_0016: Four_bit_adder_code.vhd : (1, 13): Design unit declaration expected.
+# Compile Entity "four_bit_adder_code"
+# Error: COMP96_0078: Four_bit_adder_code.vhd : (2, 5): Unknown identifier "IEEE".
+# Error: COMP96_0078: Four_bit_adder_code.vhd : (6, 43): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: Four_bit_adder_code.vhd : (6, 43): Unknown type.
+# Error: COMP96_0078: Four_bit_adder_code.vhd : (7, 29): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: Four_bit_adder_code.vhd : (7, 29): Unknown type.
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Error: COMP96_0056: Four_bit_adder_code.vhd : (12, 1): Cannot find referenced entity declaration "four_bit_adder_code".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+four_bit_adder_code four_bit_adder_code behav
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet40" has been made inactive.
+#  1:35 PM, Sunday, April 30, 2023
 #  Simulation has been initialized
 # Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-# KERNEL: Warning: KERNEL_0291 Object "/not_code/A" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/not_code/Y" has already been traced.
+# Warning: WAVEFORM: Object matching /full_adder_code/A not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /full_adder_code/B not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /full_adder_code/Cin not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /full_adder_code/Sum not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /full_adder_code/Cout not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
+# VSIM: 17 object(s) traced.
+# KERNEL: Warning: KERNEL_0291 Object "/four_bit_adder_code/A3" has already been traced.
 # VSIM: 0 object(s) traced.
-run @100ns
-# KERNEL: stopped at time: 100 ns
-# Preparing list of files to export. Please wait...
-# Finished preparing list of files to export.
-# Exporting single document to pdf...
-# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\]
-# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\not_code.vhd (1 of 1)
-# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\not_code.vhd] ...
-# HDE document [not_code.vhd] exported successfully
-# Export to PDF time: [0 s]
-# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 3\not_code.pdf
+run @12800ns
+# KERNEL: stopped at time: 12800 ns

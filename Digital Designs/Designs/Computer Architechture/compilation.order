@@ -16,3 +16,5 @@
 .\src\nand_code.vhd
 .\src\nor_code.vhd
 .\src\not_code.vhd
+.\src\Four_bit_adder_code.vhd
+.\src\full_adder_code.vhd

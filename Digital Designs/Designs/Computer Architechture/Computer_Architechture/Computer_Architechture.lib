@@ -1,14 +1,14 @@
-timestamp=1681039575439
+timestamp=1682841880654
 
 [~A]
-ModifyID=165
+ModifyID=168
 Version=74
 
 [~MFT]
-0=8|0Computer_Architechture.mgf|29807|3432
-1=2|1Computer_Architechture.mgf|21974|6534
+0=7|0Computer_Architechture.mgf|32851|3432
+1=1|1Computer_Architechture.mgf|24164|7332
 2=0|2Computer_Architechture.mgf|1933|0
-3=2|3Computer_Architechture.mgf|5534|833
+3=0|3Computer_Architechture.mgf|5799|833
 
 [\4-bit_adder\]
 A/\4-bit_adder\=24|../src/4-bit_adder.bde|10000|1*9723
@@ -75,6 +75,16 @@ R=../src/and_code.vhd|4
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|7cb20e80999bd2bdd3175a792978fd120bef863ffcbcba88f77ff7086b42e782bf04db8607188a48e18816da94543203
 Version/behav=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b5c4f9e89f0d95544b19889619d36473a1c1d5374d8f3ead16962cdea42f5dac
 
+[four_bit_adder_code]
+A/behav=21|../src/Four_bit_adder_code.vhd|12|1*24164
+I=0*31981
+I/behav=0*32851
+M=11|2|vef|1682841880648|../src/Four_bit_adder_code.vhd|0*31561*0x73bbdbb43e509e6c98d9598caa8887d065ed829b|0*31878*0x23b75c12e3e89f2ef000564498faa8c2
+M/behav=21|2|vef|1682841880650|../src/Four_bit_adder_code.vhd|0*32194*0x39cefd6595ccbc266a305c6261067647b6274fae|0*32739*0x20116f55b147878295aeff36dce7fc50
+R=../src/Four_bit_adder_code.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|bac176bb450095e1b63aef2ea83dde04c7022c17f8ca4c90755bf0d8983fa5fac8c5a88684a0c9014a5a1abb963ae3c1
+Version/behav=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b5c4f9e89f0d95544b19889619d3647384e8ca6c8375b047b5b7770c0d9482a9
+
 [full_adder]
 A/full_adder=24|../src/full_adder.bde|10000|1*3450
 BinW64/full_adder=3*1293
@@ -86,6 +96,17 @@ NSymbols/full_adder=40|0|2*1933
 R=../compile/full_adder.vhd|27
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933ef43314eb29b43ce6876c5b7a836ed444
 Version/full_adder=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933e9d79760ebfe02376f9e6955e4649053a
+
+[full_adder_code]
+A/behav=21|../src/full_adder_code.vhd|12|1*23366
+BinW64/behav=3*5799
+I=0*30569
+I/behav=0*31105
+M=11|2|vef|1682840683131|../src/full_adder_code.vhd|0*30219*0xee645bcef843c341545ac5278710c1514321c184|0*30474*0x23b75c12e3e89f2ef000564498faa8c2
+M/behav=21|2|vef|1682841292655|../src/full_adder_code.vhd|0*30778*0x3f6caffbd530a7b2e07e39d0b5e0e2fef63caa60|0*31001*0x20116f55b147878295aeff36dce7fc50
+R=../src/full_adder_code.vhd|4
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|cb85037e11ccf3aaa4106662d5dec0d9424020fb968d8f5f7d89949ec66e7c702fe0dda3ce36fea575b1409ffb9e1e36
+Version/behav=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b5c4f9e89f0d95544b19889619d36473b5dcee3c5dc981405d1b3a7fc376f250
 
 [full_using_half]
 A/full_using_half=24|../src/full_using_half.bde|10000|1*4463
@@ -216,7 +237,9 @@ Version/behav=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b5c4f9e89
 \xnor\=11|0*10174|
 \xor\=11|0*10972|
 and_code=11|0*11765|
+four_bit_adder_code=11|0*31320|
 full_adder=11|0*12354||0x3
+full_adder_code=11|0*30015|
 full_using_half=11|0*13183|
 full_using_half_code=11|0*22477|
 half_adder=11|0*14072||0x3
