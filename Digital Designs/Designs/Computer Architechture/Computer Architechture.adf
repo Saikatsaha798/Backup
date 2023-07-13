@@ -38,6 +38,8 @@ FUNC_LIB=Computer_Architechture
 .\src\not_code.vhd=VHDL Source Code
 .\src\Four_bit_adder_code.vhd=VHDL Source Code
 .\src\full_adder_code.vhd=VHDL Source Code
+.\src\bcd_adder.vhd=VHDL Source Code
+.\src\adder_substractor_code.vhd=VHDL Source Code
 [Files]
 /and.bde=-1
 /half_adder.bde=-1
@@ -59,10 +61,12 @@ FUNC_LIB=Computer_Architechture
 /not_code.vhd=-1
 /Four_bit_adder_code.vhd=-1
 /full_adder_code.vhd=-1
+/bcd_adder.vhd=-1
+/adder_substractor_code.vhd=-1
 [file_out:/and.bde]
 /..\compile\and.vhd=-1
 [HierarchyViewer]
-HierarchyInformation=four_bit_adder_code|behav|0 full_adder_code|behav|0 not_code|behav|0
+HierarchyInformation=adder_substractor_code|behav|0 four_bit_adder_code|behav|0
 ShowHide=ShowTopLevel
 Selected=
 [file_out:/half_adder.bde]

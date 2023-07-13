@@ -1,40 +1,133 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_adder_code.vhd
+# Preparing list of files to export. Please wait...
+# Finished preparing list of files to export.
+# Exporting single document to pdf...
+# Destination folder is [C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 6\]
+# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\Four_bit_adder_code.vhd (1 of 1)
+# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\Four_bit_adder_code.vhd] ...
+# HDE document [Four_bit_adder_code.vhd] exported successfully
+# Export to PDF time: [0 s]
+# Exported PDF file: C:\Users\saika\OneDrive\Documents\BTECH\2nd Year\4th Sem\PRACTICALS\Computer Architecture\Exp 6\Four_bit_adder_code.pdf
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/and.bde $dsn/src/half_adder.bde $dsn/src/full_adder.bde $dsn/src/sr_latch.bde $dsn/src/or.bde $dsn/src/xor.bde $dsn/src/xnor.bde $dsn/src/full_using_half.bde $dsn/src/and_code.vhd $dsn/src/or_code.vhd $dsn/src/xor_code.vhd $dsn/src/xnor_code.vhd $dsn/src/4-bit_adder.bde $dsn/src/full_using_half_code.vhd $dsn/src/half_adder_code.vhd $dsn/src/nand_code.vhd $dsn/src/nor_code.vhd $dsn/src/not_code.vhd $dsn/src/Four_bit_adder_code.vhd $dsn/src/full_adder_code.vhd $dsn/src/adder_substractor_code.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/and.vhd
+# Compile Entity "\and\"
+# Compile Architecture "\and\" of Entity "\and\"
+# File: ./../compile/half_adder.vhd
+# Compile Entity "half_adder"
+# Compile Architecture "half_adder" of Entity "half_adder"
+# File: ./../compile/full_adder.vhd
+# Compile Entity "full_adder"
+# Compile Architecture "full_adder" of Entity "full_adder"
+# File: ./../compile/sr_latch.vhd
+# Compile Entity "sr_latch"
+# Compile Architecture "sr_latch" of Entity "sr_latch"
+# File: ./../compile/or.vhd
+# Compile Entity "\or\"
+# Compile Architecture "\or\" of Entity "\or\"
+# File: ./../compile/xor.vhd
+# Compile Entity "\xor\"
+# Compile Architecture "\xor\" of Entity "\xor\"
+# File: ./../compile/xnor.vhd
+# Compile Entity "\xnor\"
+# Compile Architecture "\xnor\" of Entity "\xnor\"
+# File: ./../compile/full_using_half.vhd
+# Compile Entity "full_using_half"
+# Compile Architecture "full_using_half" of Entity "full_using_half"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/and_code.vhd
+# Compile Entity "and_code"
+# Compile Architecture "behav" of Entity "and_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/or_code.vhd
+# Compile Entity "or_code"
+# Compile Architecture "behav" of Entity "or_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/xor_code.vhd
+# Compile Entity "xor_code"
+# Compile Architecture "behav" of Entity "xor_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/xnor_code.vhd
+# Compile Entity "xnor_code"
+# Compile Architecture "behav" of Entity "xnor_code"
+# File: ./../compile/4-bit_adder.vhd
+# Compile Entity "\4-bit_adder\"
+# Compile Architecture "\4-bit_adder\" of Entity "\4-bit_adder\"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_using_half_code.vhd
+# Compile Entity "full_using_half_code"
+# Compile Architecture "behav" of Entity "full_using_half_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/half_adder_code.vhd
+# Compile Entity "half_adder_code"
+# Compile Architecture "behav" of Entity "half_adder_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nand_code.vhd
+# Compile Entity "nand_code"
+# Compile Architecture "behav" of Entity "nand_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/nor_code.vhd
+# Compile Entity "nor_code"
+# Compile Architecture "behav" of Entity "nor_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/not_code.vhd
+# Compile Entity "not_code"
+# Compile Architecture "behav" of Entity "not_code"
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
 # File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_adder_code.vhd
 # Compile Entity "full_adder_code"
 # Compile Architecture "behav" of Entity "full_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-asim -O5 +access +r +m+not_code not_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5396 kB (elbread=427 elab2=4830 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet39" has been made inactive.
-#  1:14 PM, Sunday, April 30, 2023
-#  Simulation has been initialized
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Error: COMP96_0015: adder_substractor_code.vhd : (23, 6): ';' expected.
+# Error: COMP96_0019: adder_substractor_code.vhd : (23, 6): Keyword 'end' expected.
+# Error: COMP96_0016: adder_substractor_code.vhd : (23, 8): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/adder_substractor_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/adder_substractor_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "adder_substractor_code"
+# Error: COMP96_0056: adder_substractor_code.vhd : (12, 1): Cannot find referenced entity declaration "adder_substractor_code".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/adder_substractor_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "adder_substractor_code"
+# Error: COMP96_0056: adder_substractor_code.vhd : (12, 1): Cannot find referenced entity declaration "adder_substractor_code".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/adder_substractor_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "adder_substractor_code"
+# Error: COMP96_0111: adder_substractor_code.vhd : (8, 5): Labels do not match.
+# Compile Architecture "behav" of Entity "adder_substractor_code"
+# Error: COMP96_0056: adder_substractor_code.vhd : (12, 1): Cannot find referenced entity declaration "adder_substractor_code".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/adder_substractor_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/adder_substractor_code.vhd
+# Compile Entity "adder_substractor_code"
+# Compile Architecture "behav" of Entity "adder_substractor_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
+# Compile Entity "four_bit_adder_code"
+# Compile Architecture "behav" of Entity "four_bit_adder_code"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
-asim -O5 +access +r +m+full_adder_code full_adder_code behav
+asim -O5 +access +r +m+adder_substractor_code adder_substractor_code behav
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # VSIM: Stack memory: 32MB
@@ -50,79 +143,28 @@ asim -O5 +access +r +m+full_adder_code full_adder_code behav
 # SLP: Elaboration phase ...
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
 # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6420 kB (elbread=427 elab2=5854 kernel=139 sdf=0)
+# Allocation: Simulator allocated 6423 kB (elbread=427 elab2=5856 kernel=139 sdf=0)
 # KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-#  1:15 PM, Sunday, April 30, 2023
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  6:50 PM, Sunday, May 21, 2023
 #  Simulation has been initialized
-# VSIM: 5 object(s) traced.
+# VSIM: 21 object(s) traced.
 # Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-run @200ns
-# KERNEL: stopped at time: 200 ns
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/full_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/full_adder_code.vhd
-# Compile Entity "full_adder_code"
-# Compile Architecture "behav" of Entity "full_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
-# Error: COMP96_0018: Four_bit_adder_code.vhd : (1, 5): Identifier expected.
-# Error: COMP96_0016: Four_bit_adder_code.vhd : (1, 13): Design unit declaration expected.
-# Compile Entity "four_bit_adder_code"
-# Error: COMP96_0078: Four_bit_adder_code.vhd : (2, 5): Unknown identifier "IEEE".
-# Error: COMP96_0078: Four_bit_adder_code.vhd : (6, 43): Unknown identifier "STD_LOGIC".
-# Error: COMP96_0064: Four_bit_adder_code.vhd : (6, 43): Unknown type.
-# Error: COMP96_0078: Four_bit_adder_code.vhd : (7, 29): Unknown identifier "STD_LOGIC".
-# Error: COMP96_0064: Four_bit_adder_code.vhd : (7, 29): Unknown type.
-# Compile Architecture "behav" of Entity "four_bit_adder_code"
-# Error: COMP96_0056: Four_bit_adder_code.vhd : (12, 1): Cannot find referenced entity declaration "four_bit_adder_code".
-# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work Computer_Architechture -2002  $dsn/src/Four_bit_adder_code.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/Four_bit_adder_code.vhd
-# Compile Entity "four_bit_adder_code"
-# Compile Architecture "behav" of Entity "four_bit_adder_code"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+four_bit_adder_code four_bit_adder_code behav
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 6421 kB (elbread=427 elab2=5855 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet40" has been made inactive.
-#  1:35 PM, Sunday, April 30, 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb'.
-# Warning: WAVEFORM: Object matching /full_adder_code/A not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /full_adder_code/B not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /full_adder_code/Cin not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /full_adder_code/Sum not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /full_adder_code/Cout not found in C:/Users/saika/OneDrive/Documents/Source Code/Digital Designs/Designs/Computer Architechture/src/wave.asdb.
-# VSIM: 17 object(s) traced.
-# KERNEL: Warning: KERNEL_0291 Object "/four_bit_adder_code/A3" has already been traced.
-# VSIM: 0 object(s) traced.
 run @12800ns
 # KERNEL: stopped at time: 12800 ns
+# Preparing list of files to export. Please wait...
+# Finished preparing list of files to export.
+# Exporting single document to pdf...
+# Destination folder is [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\pdf\]
+# Exporting C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\adder_substractor_code.vhd (1 of 1)
+# Exporting HDE document [C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\src\adder_substractor_code.vhd] ...
+# HDE document [adder_substractor_code.vhd] exported successfully
+# Export to PDF time: [0 s]
+# Exported PDF file: C:\Users\saika\OneDrive\Documents\Source Code\Digital Designs\Designs\Computer Architechture\pdf\adder_substractor_code.pdf
+# Preparing list of files to export. Please wait...
+# Finished preparing list of files to export.
+# Canceled.

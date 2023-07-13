@@ -18,3 +18,4 @@
 .\src\not_code.vhd
 .\src\Four_bit_adder_code.vhd
 .\src\full_adder_code.vhd
+.\src\adder_substractor_code.vhd
