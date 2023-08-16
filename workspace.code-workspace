@@ -1,44 +1,50 @@
 {
-	"folders": [
-		{
-			"path": "Automation"
-		},
-		{
-			"path": "Big data"
-		},
-		{
-			"path": "C"
-		},
-		{
-			"path": "C++"
-		},
-		{
-			"path": "HTML"
-		},
-		{
-			"path": "Machine Learning"
-		},
-		{
-			"path": "Python"
-		},
-		{
-			"path": "Kodlogs"
-		}
-	],
-	"settings": {
-		"files.associations": {
-			"ratio": "c",
-			"stdio.h": "c",
-			"typeindex": "c",
-			"typeinfo": "c",
-			"optional": "c",
-			"system_error": "c",
-			"array": "c",
-			"functional": "c",
-			"tuple": "c",
-			"type_traits": "c",
-			"utility": "c",
-			"variant": "c"
-		}
-	}
+  "folders": [
+    {
+      "path": "Automation"
+    },
+    {
+      "path": "Big data"
+    },
+    {
+      "path": "C"
+    },
+    {
+      "path": "C++"
+    },
+    {
+      "path": "HTML"
+    },
+    {
+      "path": "Machine Learning"
+    },
+    {
+      "path": "Python"
+    },
+    {
+      "path": "Deep Learning"
+    },
+    {
+      "path": "Java"
+    },
+    {
+      "path": "Python/Local_train_booking_system"
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "ratio": "c",
+      "stdio.h": "c",
+      "typeindex": "c",
+      "typeinfo": "c",
+      "optional": "c",
+      "system_error": "c",
+      "array": "c",
+      "functional": "c",
+      "tuple": "c",
+      "type_traits": "c",
+      "utility": "c",
+      "variant": "c"
+    }
+  }
 }
